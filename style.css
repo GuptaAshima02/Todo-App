@@ -1,0 +1,133 @@
+
+body{
+    background-color: #374151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fira sans", sans-serif;
+    /* box-sizing: border-box; */
+}
+/* .section{
+    background-color: #1f29376b;
+   width: 450px;
+   padding: 50px 40px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+} */
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.container{
+    width: 500px;
+}
+
+.input-container{
+   display: flex; 
+   justify-content: center;
+   height: 40px; 
+}
+
+input,button{
+    border: none;
+    outline: none;
+}
+
+.input-container input{
+     padding: 18px 15px;
+     color: #eee;
+     background-color: #1F2937;
+     font-size: 15px;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     width: 320px;
+     
+}
+.input-container button{
+    padding: 16px  25px;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    background-color: #1F2937;
+    color: #eee;
+    border-left: 2px solid #171d27;
+}
+.input-container button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 2, 2);
+}
+.todo-list{
+    margin-top: 60px;
+    padding: 0;
+}
+.todo-list .todo{
+    margin: 0 auto;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.todo-list .todo .completed{
+    text-decoration: line-through;
+  color: red;
+  opacity: 0.7;
+
+}
+
+.todo-list button{
+    padding: 16px;
+    flex: 1;
+    margin: 0;
+}
+
+.todo-list .todo-check{
+    color: #05cf5b;
+    background-color: #fff;
+    border-left: 2px solid #fff;
+    font-size: 16px;
+}
+.todo-list .todo-check:hover{
+    color: #fff;
+    background-color: #05cf5b;
+    cursor: pointer;
+}
+.todo-list .todo-delete{
+    color: red;
+    background-color: #fff;
+    border-left: 2px solid #fff;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.todo-list .todo-delete:hover{
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
+.todo-list .todo-edit{
+    color: black;
+    background-color: #fff;
+    border-left: 2px solid #fff;
+    font-size: 16px;
+}
+.todo-list .todo-edit:hover{
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+.todo-list .todo li{
+    flex: 10;
+    padding: 16px;
+    list-style-type: none;
+    margin: 0;
+    list-style: none;
+    line-height: 1.5; 
+}
