@@ -86,7 +86,7 @@ h1 {
 }
 
 .todo-list .todo-check {
-    color: #00FFCA;
+    color: #01c59e;
     background-color: #fff;
     /* border-left: 2px solid #fff; */
     font-size: 16px;
@@ -94,7 +94,7 @@ h1 {
 
 .todo-list .todo-check:hover {
     color: #fff;
-    background-color: #00FFCA;
+    background-color: #01c59e;
     cursor: pointer;
 }
 
@@ -135,6 +135,13 @@ h1 {
     list-style: none;
     line-height: 1.5;
 }
+/* .todo-list button {
+    padding: 10px;
+    flex: 1;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+  } */
 @media (max-width: 768px) {
     .section {
         width: 90%;

@@ -2,7 +2,7 @@ const button = document.getElementById("btn");
 const container = document.getElementById("todo-list");
 const input = document.getElementById("todo-input");
 
-// Function to load todo list from local storage
+// Function to load todo list from local storage and displaying it on the page
 function loadTodoList() {
   const todoList = JSON.parse(localStorage.getItem('todoList')) || [];
   todoList.forEach(todo => {
